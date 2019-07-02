@@ -1,0 +1,77 @@
+//"transactional_store"
+{
+  "number":"string",
+  "Customer":{
+    "cpf":"string",
+    "Name": "string"
+  },
+  "items": [
+    {
+      "product" : "string",
+      "quantity": "string",
+      "total": "string"
+    },
+    {
+      "product" : "string",
+      "quantity": "string",
+      "total": "string"
+    },
+    {
+      "product" : "string",
+      "quantity": "string",
+      "total": "string"
+    }
+  ],
+  "status": "string",
+  "create_at": "string",
+  "updated_at": "string",
+  "deleted_at": "string"
+}
+
+// event_store"
+{
+  "group_id": "string",
+  "id","string",
+  "name", "string",
+  "timestamp": "string"
+},
+{
+  "group_id": "string",
+  "id","string",
+  "name", "string",
+  "timestamp": "string"
+},
+{
+  "group_id": "string",
+  "id","string",
+  "name", "string",
+  "timestamp": "string"
+}
+
+// "queryable_store"
+{
+  "number":"string",
+  "customer_cpf":"string",
+  "customer_name": "string",
+  "items": [
+    {
+      "product" : "string",
+      "quantity": "string",
+      "total": "string"
+    },
+    {
+      "product" : "string",
+      "quantity": "string",
+      "total": "string"
+    },
+    {
+      "product" : "string",
+      "quantity": "string",
+      "total": "string"
+    }
+  ],
+  "status":"string",
+  "create_at","string",
+  "updated_at","string",
+  "deleted_at","string"
+}
